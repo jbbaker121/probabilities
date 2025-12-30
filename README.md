@@ -57,6 +57,4 @@ percent = wins / attempts
 print(f"Win %: {percent} percent")
 
 # Answer:
-#### ~75.4% chance to win. This can be reframed mathematically. Let Sn be a simple random walk starting at S_0. This scenario is equivalent to P(max 1<=k<=10 Sk>=1). Using the Reflection principle to solve for the probability that the condition will not be fulfilled can be done as follows: P(never reach +1) = 
-#### (10
-#### 5)    / 2^10 = 1 - 252/1024 = 75.4%
+#### ~75.4% chance to win. This can be reframed mathematically. Let Sn be a simple random walk starting at S_0. This scenario is equivalent to P(max 1<=k<=10 Sk>=1). Using the Reflection principle to solve for the probability that the condition will not be fulfilled can be done as follows: P(never reach +1) = 10c5 / 2^10 = 1 - 252/1024 = 75.4%
